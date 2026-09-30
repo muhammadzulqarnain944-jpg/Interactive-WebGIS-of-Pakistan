@@ -1,0 +1,195 @@
+/* =========================================================
+   GENERAL STYLING
+   ========================================================= */
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #eef3f6;
+    color: #263740;
+    line-height: 1.6;
+}
+
+/* Reusable white content box */
+.card {
+    background: white;
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 24px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+}
+
+/* =========================================================
+   HEADER
+   ========================================================= */
+.header {
+    background: linear-gradient(135deg, #0b4052, #14738a);
+    color: white;
+    padding: 28px 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.assignment {
+    margin: 0 0 4px;
+    color: #bde8ef;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.header h1 { margin: 0; font-size: 32px; }
+.header p:last-child { margin: 5px 0 0; }
+
+.header-badge {
+    border: 1px solid rgba(255,255,255,0.5);
+    padding: 10px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+/* =========================================================
+   NAVIGATION
+   ========================================================= */
+.navbar {
+    background: #062d3a;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 13px 24px;
+    font-weight: bold;
+}
+
+.navbar a:hover { background: #14738a; }
+
+/* =========================================================
+   MAIN CONTENT
+   ========================================================= */
+main { max-width: 1200px; margin: auto; padding: 25px; }
+
+.intro { display: flex; justify-content: space-between; gap: 25px; }
+.intro h2, .card h2 { color: #0b5b6d; margin-top: 0; }
+
+.stats { display: flex; gap: 14px; align-items: center; }
+.stat {
+    min-width: 125px;
+    text-align: center;
+    padding: 15px;
+    background: #e9f6f8;
+    border: 1px solid #c7e6eb;
+    border-radius: 10px;
+}
+.stat strong { display: block; font-size: 27px; color: #0b5b6d; }
+.stat span { font-size: 13px; }
+
+/* =========================================================
+   MAP
+   ========================================================= */
+.map-card { padding-bottom: 20px; }
+.section-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.section-title h2 { margin-bottom: 3px; }
+.section-title p { margin-top: 0; color: #65747b; }
+
+button {
+    background: #0b5b6d;
+    color: white;
+    border: 0;
+    border-radius: 7px;
+    padding: 10px 17px;
+    cursor: pointer;
+    font-weight: bold;
+}
+button:hover { background: #073e4b; }
+
+#map {
+    width: 100%;
+    height: 650px;
+    border: 1px solid #ccd9de;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Popup heading */
+.popup-box h3 { margin: 0 0 8px; color: #0b5b6d; }
+.popup-box p { margin: 4px 0; }
+.popup-box hr { border: 0; border-top: 1px solid #ddd; }
+
+/* =========================================================
+   LEGEND AND ABOUT
+   ========================================================= */
+.legend { display: flex; gap: 30px; flex-wrap: wrap; }
+.legend div { display: flex; align-items: center; gap: 9px; }
+
+.city-symbol, .station-symbol {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 0 0 0 1px #777;
+}
+.city-symbol { background: #d62828; }
+.station-symbol { background: #1464a0; }
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin-top: 20px;
+}
+.features div {
+    background: #f2f8fa;
+    border-left: 4px solid #14738a;
+    padding: 15px;
+    border-radius: 6px;
+}
+.features h3 { margin: 0 0 5px; color: #0b5b6d; }
+.features p { margin: 0; }
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+footer {
+    background: #062d3a;
+    color: white;
+    text-align: center;
+    padding: 28px 15px;
+}
+footer h3 { margin-top: 0; }
+footer p { margin: 4px; color: #d5e8ed; }
+
+/* =========================================================
+   RESPONSIVE DESIGN
+   ========================================================= */
+@media (max-width: 850px) {
+    .header { flex-direction: column; text-align: center; }
+    .intro { flex-direction: column; }
+    .stats { justify-content: center; }
+    .features { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 600px) {
+    .header h1 { font-size: 24px; }
+    .navbar { flex-direction: column; }
+    .navbar a { text-align: center; padding: 9px; }
+    main { padding: 12px; }
+    .section-title { flex-direction: column; align-items: flex-start; }
+    #map { height: 500px; }
+    .stats { flex-direction: column; }
+    .features { grid-template-columns: 1fr; }
+}

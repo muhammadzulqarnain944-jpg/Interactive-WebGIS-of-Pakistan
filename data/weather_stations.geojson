@@ -1,0 +1,275 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Karachi Weather Station",
+        "province": "Sindh",
+        "type": "Weather Station",
+        "temperature": 31,
+        "rainfall": 0,
+        "wind_speed": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67.0011,
+          24.8607
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lahore Weather Station",
+        "province": "Punjab",
+        "type": "Weather Station",
+        "temperature": 29,
+        "rainfall": 12,
+        "wind_speed": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.3587,
+          31.5204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Islamabad Weather Station",
+        "province": "Islamabad Capital Territory",
+        "type": "Weather Station",
+        "temperature": 25,
+        "rainfall": 18,
+        "wind_speed": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0479,
+          33.6844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rawalpindi Weather Station",
+        "province": "Punjab",
+        "type": "Weather Station",
+        "temperature": 25,
+        "rainfall": 16,
+        "wind_speed": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0169,
+          33.5651
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Peshawar Weather Station",
+        "province": "Khyber Pakhtunkhwa",
+        "type": "Weather Station",
+        "temperature": 28,
+        "rainfall": 8,
+        "wind_speed": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.5249,
+          34.0151
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Quetta Weather Station",
+        "province": "Balochistan",
+        "type": "Weather Station",
+        "temperature": 22,
+        "rainfall": 3,
+        "wind_speed": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          66.975,
+          30.1798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Multan Weather Station",
+        "province": "Punjab",
+        "type": "Weather Station",
+        "temperature": 32,
+        "rainfall": 5,
+        "wind_speed": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.5249,
+          30.1575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Faisalabad Weather Station",
+        "province": "Punjab",
+        "type": "Weather Station",
+        "temperature": 30,
+        "rainfall": 9,
+        "wind_speed": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.135,
+          31.4504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gujranwala Weather Station",
+        "province": "Punjab",
+        "type": "Weather Station",
+        "temperature": 29,
+        "rainfall": 14,
+        "wind_speed": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.1945,
+          32.1877
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sialkot Weather Station",
+        "province": "Punjab",
+        "type": "Weather Station",
+        "temperature": 27,
+        "rainfall": 20,
+        "wind_speed": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.5229,
+          32.4945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hyderabad Weather Station",
+        "province": "Sindh",
+        "type": "Weather Station",
+        "temperature": 33,
+        "rainfall": 2,
+        "wind_speed": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.3578,
+          25.396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sukkur Weather Station",
+        "province": "Sindh",
+        "type": "Weather Station",
+        "temperature": 34,
+        "rainfall": 1,
+        "wind_speed": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.8228,
+          27.7244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gilgit Weather Station",
+        "province": "Gilgit-Baltistan",
+        "type": "Weather Station",
+        "temperature": 19,
+        "rainfall": 6,
+        "wind_speed": 7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.308,
+          35.9208
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Skardu Weather Station",
+        "province": "Gilgit-Baltistan",
+        "type": "Weather Station",
+        "temperature": 16,
+        "rainfall": 4,
+        "wind_speed": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.6333,
+          35.2971
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Muzaffarabad Weather Station",
+        "province": "Azad Jammu and Kashmir",
+        "type": "Weather Station",
+        "temperature": 24,
+        "rainfall": 25,
+        "wind_speed": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.4711,
+          34.37
+        ]
+      }
+    }
+  ]
+}

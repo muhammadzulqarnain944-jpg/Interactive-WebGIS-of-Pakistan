@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Web GIS of Pakistan</title>
+
+    <!-- Leaflet library for the interactive map -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+    <!-- Our own CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header class="header">
+        <div>
+            <p class="assignment">LAB ASSIGNMENT NO. 1</p>
+            <h1>Interactive Web GIS of Pakistan</h1>
+            <p>Remote Sensing and GIS | Web GIS Application</p>
+        </div>
+        <div class="header-badge">Pakistan GIS</div>
+    </header>
+
+    <!-- ================= NAVIGATION ================= -->
+    <nav class="navbar">
+        <a href="#map-section">Map</a>
+        <a href="#about">About</a>
+        <a href="#legend">Legend</a>
+    </nav>
+
+    <main>
+        <!-- ================= INTRO ================= -->
+        <section class="intro card">
+            <div>
+                <h2>Pakistan Web GIS</h2>
+                <p>
+                    This interactive Web GIS displays selected cities and weather
+                    stations of Pakistan. You can switch between OpenStreetMap and
+                    satellite imagery, turn layers on or off, zoom, pan and click
+                    features to see their information.
+                </p>
+            </div>
+            <div class="stats">
+                <div class="stat"><strong>15</strong><span>Cities</span></div>
+                <div class="stat"><strong>15</strong><span>Weather Stations</span></div>
+            </div>
+        </section>
+
+        <!-- ================= MAP ================= -->
+        <section id="map-section" class="card map-card">
+            <div class="section-title">
+                <div>
+                    <h2>Interactive Map</h2>
+                    <p>Click a marker to view its attributes.</p>
+                </div>
+                <button id="resetMap">Reset Map</button>
+            </div>
+
+            <!-- Leaflet map is created inside this div -->
+            <div id="map"></div>
+        </section>
+
+        <!-- ================= LEGEND ================= -->
+        <section id="legend" class="card">
+            <h2>Map Legend</h2>
+            <div class="legend">
+                <div><span class="city-symbol"></span> City</div>
+                <div><span class="station-symbol"></span> Weather Station</div>
+            </div>
+        </section>
+
+        <!-- ================= ABOUT ================= -->
+        <section id="about" class="card">
+            <h2>About This Application</h2>
+            <p>
+                This application was developed using HTML, CSS, JavaScript,
+                Leaflet and GeoJSON. It fulfills the main requirements of the
+                Web GIS lab assignment by providing two base maps, two GIS
+                layers, feature attributes, popups and layer controls.
+            </p>
+
+            <div class="features">
+                <div><h3>Base Maps</h3><p>OpenStreetMap and Satellite Imagery</p></div>
+                <div><h3>GIS Layers</h3><p>15 Cities and 15 Weather Stations</p></div>
+                <div><h3>Interaction</h3><p>Popups, zoom, pan and layer control</p></div>
+                <div><h3>Data</h3><p>GeoJSON spatial data</p></div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+        <h3>Interactive Web GIS of Pakistan</h3>
+        <p>Lab Assignment No. 1</p>
+        <p>Developed using HTML, CSS, JavaScript and Leaflet</p>
+    </footer>
+
+    <!-- Leaflet JavaScript -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <!-- Our JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
